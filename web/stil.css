@@ -1,0 +1,252 @@
+body{
+    	background:#003a77;
+	color:#505050;
+        font-variant-ligatures: historical-ligatures; 
+        margin-left: auto;
+        margin-right: auto;
+}
+.wrapper{
+    width: 810px;
+    border-radius: 15px;
+    background-color: coral;
+    padding-bottom: 1px;
+    padding-top: 3px;
+}
+#divKorisnik{
+    margin: 5px 5px 0px 5px;
+    background-color: #fff;    
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: coral;
+    width: 290px;
+    height: 35px;
+    float: left;
+}
+#divKorpa{
+    width:180px;    
+    text-align: left;
+  float:right;
+}
+#divKorpa img{
+    float:right;
+    margin-right: 10px;
+}
+.container{
+    width:800px;
+    border-radius: 15px;
+    background-color: #EBF4cc;
+    margin-top: 0px;
+    overflow: auto;
+}
+.content{
+    
+    float:left;
+    width:480px;
+    border-radius: 15px;
+    background-color: coral; 
+    margin: 5px 5px 5px 5px;
+    }
+#content-right{
+    float:left;
+    width:300px;
+    border:10px;
+    border-radius: 15px;    
+    background-color: coral;
+    margin: 5px 5px 0px 5px;
+}
+#content-right li{
+    text-align:left;
+}
+.crNaslov{
+    width:290px;
+    border:1px;
+    border-radius: 15px;    
+    background-color: #EBF4cc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.crStavka{
+    width:290px;
+    border:1px;
+    border-radius: 15px;    
+    background-color: #EBF4cc;
+}
+.korpa1{
+    float: right;
+    width: 120px;
+    height: 67px;
+    border:3px;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 15px;    
+    background-color: #fff;
+    padding-top: 4px;
+}
+.kategorija{
+    
+    float:left;
+    width:230px;
+    height: 80px;
+    border: 1px;
+    border-style: double;
+    border-radius: 15px;
+    background-color: #EBF4cc; 
+    margin: 5px 0px 5px 5px;
+    }
+.proizvod{
+    float:left;
+    width: 468px; 
+    height: 80px;
+    border: 1px;
+    border-style: double;
+    border-radius: 15px;
+    background-color: #EBF4cc; 
+    margin: 5px 0px 0px 5px;
+    padding-top: 3px;
+    padding-right: 3px;
+    }
+.slika{
+    float:left;
+    width:70px;
+    height: 70px;
+    border: 1px;
+    border-style: double;
+    margin: 4px 0px 4px 4px; 
+    }
+.slika a:hover{
+        border-style: outset;
+    }
+#top-menu{
+    width:300px;
+    border:1px;
+    border-radius: 15px;
+}
+.main-menu{
+    width: 800px;
+    border-radius: 15px;
+    margin :0 auto;
+}
+a{
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+a,a:hover {
+    text-decoration:none;
+    
+}
+ul.menu {
+    list-style: none;
+    margin-left: 35px;
+    padding: 0;
+}
+ul.menu li {
+    border-radius: 5px 5px 0 0;
+    width: 110px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background-color: lightslategray;
+}
+ ul.menu li a:link{
+    background-color: lightslategray;
+}
+ul.menu li a.active {
+    background-color: #EBF4cc;
+    text-decoration:none;
+}
+ul.menu li a:hover{
+    background-color: #EBF4cc;
+}
+span{
+    margin: auto auto;
+    display: block;
+    width: 70px;
+    line-height: 30px;
+}
+#footer{
+    border-radius: 15px;
+    padding-top:1px;
+    width: 800px;
+    height: 25px;
+    margin: 3px ;    
+    background-color: #EBF4cc;
+    clear:both;
+    margin-bottom: 5px;
+}
+.footerText{
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 1
+}
+#upper{
+    width: 800px;
+    margin :0 auto;
+}
+#logo{
+    float: left;
+    width:300px;
+    height: 198px;
+    border:1px;
+    border-radius: 15px;
+    background-color: #EBF4cc;
+    
+}
+#logo img{
+    width: 300px;
+    height: 198px;
+    border-radius: 15px;
+}
+#opis{
+    float: left;
+    width:495px;   
+    margin-left: 5px;
+    height: 198px;
+    border:1px;
+    border-radius: 15px;
+    background-color: #EBF4cc;
+}
+#opisKategorije,naslovKategorije{
+    display: block;
+    float: left;
+    width:150px;
+}
+#naslovKategorije h4{
+    margin-top: 15px;
+}
+#slider{
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: coral;
+    margin: 2% auto;
+}
+.okvir{
+    float:left;
+    width: 350px;
+    border:1px solid grey;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.okvir table{
+    border-spacing: 5px 20px;
+}
+.msg{
+    float:left;
+    display: block;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    color:red;
+}
+.suma{ 
+     float:left;
+    display: block;
+    margin-left: 0px;
+    margin-top: 5px;
+    color:red;
+}
+.korpaSubmit{
+    margin-top:8px;
+}
